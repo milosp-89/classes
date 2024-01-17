@@ -74,7 +74,7 @@ class List(): # class
          self.array = res
          return self.array
     
-# test it:
+# test:
 my_list = List([1,2,3,4,5,6]) # instance of the List class
 
 # methods:
@@ -89,8 +89,3 @@ print(my_list.rem(3)) # removes specified element from a list
 print(my_list.srt("<")) # sort in ascending order elements within a list
 print(my_list.srt(">")) # sort descending order elements within a list
 print(my_list.cl()) # clear all elements
-
-# 11 custom methods for a list object
-# without using build in functions or modules!!!
-# to convert x variable from int to str ==> "%s" % x
-# to convert m variable from int to str ==> f"{m}"
